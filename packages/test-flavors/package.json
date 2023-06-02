@@ -11,7 +11,10 @@
     "react-native-web": "*",
     "expo-splash-screen": "~0.18.2",
     "expo-status-bar": "~1.4.4",
-    "react": "18.2.0"
+    "react": "18.2.0",
+    "@nx/expo": "*",
+    "@expo/metro-config": "*",
+    "@babel/core": "*"
   },
   "scripts": {
     "eas-build-pre-install": "cd ../../ && node tools/scripts/eas-build-pre-install.mjs . packages/test-flavors && cp yarn.lock packages/test-flavors",

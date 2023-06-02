@@ -25,7 +25,8 @@
     "run-android": {
       "executor": "@nx/expo:run",
       "options": {
-        "platform": "android"
+        "platform": "android",
+        "variant": "alphaDebug"
       }
     },
     "build": {
